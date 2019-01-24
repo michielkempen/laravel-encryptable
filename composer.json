@@ -1,0 +1,26 @@
+{
+    "name": "michielkempen/laravel-encryptable",
+    "description": "A trait to automatically encrypt/decrypt sensitive attributes of Laravel models.",
+    "keywords": [
+        "Michiel Kempen",
+        "Laravel Encryptable"
+    ],
+    "homepage": "https://github.com/michielkempen/laravel-encryptable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michiel Kempen",
+            "email": "kempenmichiel@gmail.com",
+            "homepage": "https://michielkempen.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MichielKempen\\LaravelEncryptable\\": "src"
+        }
+    }
+}
